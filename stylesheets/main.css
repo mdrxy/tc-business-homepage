@@ -1,0 +1,46 @@
+.bg-color {
+    background-color: goldenrod;
+}
+
+.center-logo {
+    position: relative;
+    top: 30%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-name {
+    font-size: 60px;
+    left: 18%;
+}
+
+.company-font {
+    font-family: cursive;
+    position: relative;
+}
+
+.company-font-color {
+    color: firebrick;
+}
+
+.format-container-1 {
+    position: relative;
+    right: 30%;
+}
+
+.box {
+    padding: 75px 75px 75px 75px;
+}
+
+input[type=text] {
+    border: 2px solid firebrick;
+    border-radius: 4px;
+  }
+
+body {
+    width:720px;
+    margin:0 auto;
+ }
+

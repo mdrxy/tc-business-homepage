@@ -8,25 +8,48 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="stylesheets/main.css">
+
+  <div class="center-logo">
+    <img src="images/lph-logos.png" alt="chicken logo" width="auto" height="250">
+  </div>
+
+  <nav class="nav-settings">
+    <a class="company-font company-font-color nav-item"
+      href="https://breakingbad.fandom.com/wiki/Los_Pollos_Hermanos/Menu/Breaking_Bad" target="_blank">Our Menu</a>
+    <a class="company-font company-font-color nav-item" target="_blank" href="https://images.squarespace-cdn.com/content/v1/591fd77d29687fd09cca478b/1555546030336-YXVPG30KTCM92JW89UTL/ke17ZwdGBToddI8pDm48kDrQ9tfdcvPUv7NgXGP4R2R7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0gmXcXvEVFTLbYX9CdVcGe4zwrosjp5YtnrvbmlM1LFKb7wNXE8lRZ0Z8l5PIsW3Vw/AdobeStock_139559217.jpeg">Place Order</a>
+    <a class="company-font company-font-color nav-item" href="/placeholder/">Hours</a>
+  </nav>
+
+  <style>
+    .nav-settings {
+      display: flex;
+      justify-content: center;
+      position: inherit;
+      font-size: 20px;
+      text-transform: uppercase;
+      background: #c49c37;
+      border-radius: 30px;
+    }
+
+    .center-logo {
+      padding: 30px;
+    }
+
+    .nav-item {
+      margin: 10px;
+    }
+  </style>
 </head>
-<nav class="nav-settings">
-  <a class="company-font company-font-color" href="https://breakingbad.fandom.com/wiki/Los_Pollos_Hermanos/Menu/Breaking_Bad" target="_blank">Our Menu</a> |
-  <a class="company-font company-font-color" href="/placeholder/">Contact Us</a> |
-  <a class="company-font company-font-color" href="/placeholder/">Our Working Hours</a> |
-  <a class="company-font company-font-color" href="/placeholder/">About Us</a>
-</nav>
+
 
 <body class="bg-color">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <div class="center-logo">
-    <img src="images/lph-logos.png" alt="chicken logo" width="auto" height="250">
-  </div>
-  
+
   <!-- first row -->
-  
+
   <h1 class="company-name company-font company-font-color">Los Pollos Hermanos</h1>
   <br>
   <div class="container format-container-1">
@@ -53,14 +76,15 @@
     </div>
   </div>
 
-  <!-- end of first row -->
+  <!-- end of first row, begin second row -->
 
   <div class="container format-container-1">
     <div class="row">
       <div class="col-md-4 box-right">
         <h2 class="company-font company-font-color">Our Menu</h2>
         <p class="company-font">To view the entire menu, please click below </p>
-        <p><a class="btn btn-default" href="https://breakingbad.fandom.com/wiki/Los_Pollos_Hermanos/Menu/Breaking_Bad" target="_blank" role="button">Menu &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://breakingbad.fandom.com/wiki/Los_Pollos_Hermanos/Menu/Breaking_Bad"
+            target="_blank" role="button">Menu &raquo;</a></p>
       </div>
       <div class="col-md-4 box-left">
         <h2 class="company-font company-font-color">Our Hours</h2>
@@ -68,16 +92,16 @@
           Monday - Friday
         </p>
         <p class="company-font" style="font-size: medium; text-indent: 15pt;">
-          8:00am - 7:00pm
+          8:00 AM - 7:00 PM
         </p>
         <p class="company-font company-font-color" style="font-size: medium;">
           Saturday - Sunday
         </p>
         <p class="company-font" style="font-size: medium; text-indent: 15pt;">
-          9:00am - 8:00pm
+          9:00 AM - 8:00 PM
         </p>
         <p class="company-font company-font-color" style="font-size: medium;">
-          Holidays
+          US Federal Holidays
         </p>
         <p class="company-font" style="font-size: medium; text-indent: 15pt;">
           Closed
@@ -91,10 +115,9 @@
           <input type="text" id="newsletter" name="newsletter" placeholder="your email address..">
         </form>
         <br>
-        <p><a class="btn btn-default" href="#" role="button">Submit&raquo;</a></p>
+        <p><a class="btn btn-default" href="mailto:gfring@lph.com" role="button">Submit&raquo;</a></p>
       </div>
     </div>
-    <!-- Example row of columns -->
   </div>
 </body>
 

@@ -23,4 +23,4 @@ Jack Kinsella, Mason Daugherty, Ilana Fernandez, Linguo Ren, Diego Torres-Ramos
 
 ## Acknowledgements
 
-* AMC
+* [AMC Network Entertainment LLC](https://www.sonypictures.com/tv/breakingbad)

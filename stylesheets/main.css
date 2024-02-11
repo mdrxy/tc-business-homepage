@@ -41,6 +41,12 @@
     padding: 0 0 0 20px;
 }
 
+.nav-settings {
+    right: 40%;
+    position: relative;
+    display: block;
+}
+
 input[type=text] {
     border: 2px solid firebrick;
     border-radius: 4px;

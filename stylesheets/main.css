@@ -30,8 +30,15 @@
     right: 30%;
 }
 
-.box {
-    padding: 75px 75px 75px 75px;
+.box-left {
+    padding: 75px 75px 75px 100px;
+}
+.box-right {
+    padding: 75px 100px 75px 75px;    
+}
+
+.business-image-box {
+    padding: 0 0 0 20px;
 }
 
 input[type=text] {

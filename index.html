@@ -9,50 +9,71 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="stylesheets/main.css">
 
-  <div class="center-logo">
-    <img src="images/lph-logos.png" alt="chicken logo" width="auto" height="250">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="center-logo">
+          <img src="images/lph-logos.png" alt="chicken logo" width="auto" height="300">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <nav class="nav-settings">
+        <a class="company-font company-font-color nav-item nav-item-left"
+          href="https://breakingbad.fandom.com/wiki/Los_Pollos_Hermanos/Menu/Breaking_Bad" target="_blank">Our Menu</a>
+        <a class="company-font company-font-color nav-item" target="_blank" href="https://images.squarespace-cdn.com/content/v1/591fd77d29687fd09cca478b/1555546030336-YXVPG30KTCM92JW89UTL/ke17ZwdGBToddI8pDm48kDrQ9tfdcvPUv7NgXGP4R2R7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0gmXcXvEVFTLbYX9CdVcGe4zwrosjp5YtnrvbmlM1LFKb7wNXE8lRZ0Z8l5PIsW3Vw/AdobeStock_139559217.jpeg">Place Order</a>
+        <a class="company-font company-font-color nav-item nav-item-right" href="/placeholder/">Hours</a>
+      </nav>
+    
+      <style>
+        .nav-settings {
+          display: flex;
+          justify-content: center;
+          position: inherit;
+          font-size: 20px;
+          text-transform: uppercase;
+          background: #c49c37;
+          border-radius: 30px;
+        }
+    
+        .center-logo {
+          padding: 50px;
+        }
+    
+        .nav-item {
+          margin: 10px;
+        }
+
+        .nav-item-left {
+          padding-left: 50px;
+        }
+
+        .nav-item-right {
+          padding-right: 50px;
+        }
+      </style>
+    </div>
   </div>
-
-  <nav class="nav-settings">
-    <a class="company-font company-font-color nav-item"
-      href="https://breakingbad.fandom.com/wiki/Los_Pollos_Hermanos/Menu/Breaking_Bad" target="_blank">Our Menu</a>
-    <a class="company-font company-font-color nav-item" target="_blank" href="https://images.squarespace-cdn.com/content/v1/591fd77d29687fd09cca478b/1555546030336-YXVPG30KTCM92JW89UTL/ke17ZwdGBToddI8pDm48kDrQ9tfdcvPUv7NgXGP4R2R7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0gmXcXvEVFTLbYX9CdVcGe4zwrosjp5YtnrvbmlM1LFKb7wNXE8lRZ0Z8l5PIsW3Vw/AdobeStock_139559217.jpeg">Place Order</a>
-    <a class="company-font company-font-color nav-item" href="/placeholder/">Hours</a>
-  </nav>
-
-  <style>
-    .nav-settings {
-      display: flex;
-      justify-content: center;
-      position: inherit;
-      font-size: 20px;
-      text-transform: uppercase;
-      background: #c49c37;
-      border-radius: 30px;
-    }
-
-    .center-logo {
-      padding: 30px;
-    }
-
-    .nav-item {
-      margin: 10px;
-    }
-  </style>
 </head>
 
 
 <body class="bg-color">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-
-  <!-- first row -->
-
-  <h1 class="company-name company-font company-font-color">Los Pollos Hermanos</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+      
+        <!-- first row -->
+      
+        <h1 class="company-name company-font company-font-color align-right">Los Pollos Hermanos</h1>
+      </div>
+    </div>
+  </div>
   <br>
-  <div class="container format-container-1">
+  <div class="container">
     <div class="row">
       <div class="col-md-3">
         <h2 class="company-font company-font-color">Best In Town</h2>
@@ -75,18 +96,18 @@
       </div>
     </div>
   </div>
-
+  <br><br><br><br>
   <!-- end of first row, begin second row -->
 
-  <div class="container format-container-1">
+  <div class="container">
     <div class="row">
-      <div class="col-md-4 box-right">
+      <div class="col-md-5">
         <h2 class="company-font company-font-color">Our Menu</h2>
         <p class="company-font">To view the entire menu, please click below </p>
         <p><a class="btn btn-default" href="https://breakingbad.fandom.com/wiki/Los_Pollos_Hermanos/Menu/Breaking_Bad"
             target="_blank" role="button">Menu &raquo;</a></p>
       </div>
-      <div class="col-md-4 box-left">
+      <div class="col-md-4">
         <h2 class="company-font company-font-color">Our Hours</h2>
         <p class="company-font company-font-color" style="font-size: medium;">
           Monday - Friday
@@ -107,7 +128,7 @@
           Closed
         </p>
       </div>
-      <div class="col-md-4 box-left">
+      <div class="col-md-3">
         <h2 class="company-font company-font-color">Exclusive Deals</h2>
         <form class="company-font">
           <label>Join Our Newsletter</label>

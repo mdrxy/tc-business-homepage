@@ -22,7 +22,7 @@
 
 ## Dependencies
 
-* TODO
+* Bootstrap v5 - [bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/)
 
 ## Authors
 

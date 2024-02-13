@@ -23,6 +23,8 @@
 ## Dependencies
 
 * Bootstrap v5 - [download bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/)
+* Chrome Developer Tools
+* Favicon Maker
 
 ## Authors
 
@@ -31,3 +33,4 @@ Jack Kinsella, Mason Daugherty, Ilana Fernandez, Linguo Ren, Diego Torres-Ramos
 ## Acknowledgements
 
 * [AMC Network Entertainment LLC](https://www.sonypictures.com/tv/breakingbad)
+* Professor Harmon
